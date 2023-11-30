@@ -5,7 +5,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.soutushenqi\.com\/(api\/.+\/account\/(token|info)|cykj_community|v\d\/home\/dialog) url script-response-body 
+^https?:\/\/.*\.soutushenqi\.com\/(api\/.+\/account\/(token|info)|cykj_community|v\d\/home\/dialog) url script-response-body https://raw.githubusercontent.com/2023djash/QX/main/soutu.js
 
 [mitm]
 hostname = *.soutushenqi.com
