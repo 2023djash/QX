@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bending.js
+^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify) url script-response-body https://raw.githubusercontent.com/2023djash/QX/main/reminixl.js
 
 [mitm]
 hostname = *.oracle.bendingspoonsapps.com
