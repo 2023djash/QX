@@ -12,8 +12,8 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(users|startup|ads) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/JavDB.js
-^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/chxm1023/Rewrite/main/JavDB.js
+^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(users|startup|ads) url script-response-body https://raw.githubusercontent.com/2023djash/QX/main/JS/JavBD.js
+^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/2023djash/QX/main/JS/JavBD.js
 
 [mitm]
 hostname = api.hechuangxinxi.xyz
