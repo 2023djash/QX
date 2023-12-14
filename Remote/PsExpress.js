@@ -1,7 +1,7 @@
 /*
 
-PSExpress 23.49.1
-2023.12.15
+PSExpress
+
 [rewrite_local]
 
 https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3 url script-response-body https://raw.githubusercontent.com/2023djash/2023djash/main/js/PSExpress.js
